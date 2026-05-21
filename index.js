@@ -5,7 +5,7 @@ document.getElementById("login-form").addEventListener("submit", function (e) {
   const errorMessage = document.getElementById("error-message");
 
   // Ganti dengan password yang diinginkan
-  const correctPassword = "DapehGanteng";
+  const correctPassword = "D";
 
   if (password === correctPassword) {
       window.location.href = "flower.html"; // Halaman tujuan
