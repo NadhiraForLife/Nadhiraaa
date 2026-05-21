@@ -5,7 +5,7 @@ document.getElementById("login-form").addEventListener("submit", function (e) {
   const errorMessage = document.getElementById("error-message");
 
   // Ganti dengan password yang diinginkan
-  const correctPassword = "ara_radit";
+  const correctPassword = "DapehGanteng";
 
   if (password === correctPassword) {
       window.location.href = "flower.html"; // Halaman tujuan
@@ -14,3 +14,4 @@ document.getElementById("login-form").addEventListener("submit", function (e) {
       errorMessage.textContent = "Incorrect password. Please try again.";
   }
 });
+\
